@@ -1,1 +1,22 @@
 # Class-System-DBMS
+Colin Molina
+
+To run the program, first make sure that you have a version of PostgreSQL downloaded. Before anything, I had to enter this code in a blank terminal to get my .java file onto the server: 
+scp C:/Users/ColinM/eclipse-workspace/DBMSProject/src/cspackage/DBMSProject.java colinmolina@compsci.adelphi.edu:/home/colinmolina/DBMSProject/cspackage/. 
+In the first part, you would change the file location with where you downloaded the .java file, then upload it to your adelphi email with where your want it be located in your server files. THE PACKAGE PART IS IMPORTANT. I tried to not include cspackage at first and it caused constant issues.
+
+Compile and launch the .java file inside of a package(should already be in there) in the terminal. I used the following: 
+javac -cp .:/home/colinmolina/DBMSProject/postgresql-42.7.5.jar cspackage/DBMSProject.java
+and then:
+java -cp ".:postgresql-42.7.5.jar" cspackage/*.java
+
+ A step by step is included in the word document, but each option is chosen using 1, 2, 3 or Q. 
+
+1 - Get transcript
+2 - Register for courses
+3 - Post grade
+Q - Quit
+
+Once one of these options are selected, just follow the workflow guide in the original HW document.
+
+There should be no issues running, as I have not caught any in the latest version of my program while testing. However, if there is a problem that halts progress, please contact me. Obviously if it's something that needs to be changed I can't do anything about it after I submit, but I had plenty of hiccups on the way to this and I'm not sure if on another system there would be unforeseen issues(granted if you can't figure it out, I'm not sure I'd be able to but you never know).
